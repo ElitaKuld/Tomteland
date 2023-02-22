@@ -28,7 +28,7 @@ fun main() {
 
     val tomteland = Tomteland()
 
-    val listOfChefer = listOf<String>("Tomten", "Glader", "Butter", "Trötter", "Skumtomten", "Räven", "Myran")
+    val listOfChefer = listOf("Tomten", "Glader", "Butter", "Trötter", "Skumtomten", "Räven", "Myran")
 
     for (i in listOfChefer.indices){
         val lista: MutableList<String> = mutableListOf()
